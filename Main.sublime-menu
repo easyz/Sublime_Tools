@@ -1,0 +1,77 @@
+[
+    {
+        "caption": "Refactor",
+        "id": "Refactor",
+        "children":
+        [
+            {
+                "caption": "格式化字段输出",
+                "children":
+                [
+                    {
+                        "caption": "Lua",
+                        "command": "lua_refactor",
+                        "args": {
+                            "cmd":"format_string",
+                            "arg":"Lua"
+                        }
+                    }
+                    ,{
+                        "caption": "C#",
+                        "command": "lua_refactor",
+                        "args": {
+                            "cmd":"format_string",
+                            "arg":"C#"
+                        }
+                    }
+                ]
+            }
+            ,{
+                "caption": "插入调试信息",
+                "children":
+                [
+                    {
+                        "caption": "Lua",
+                        "command": "lua_refactor",
+                        "args": {
+                            "cmd":"insert_debug_info",
+                            "arg":"Lua"
+                        }
+                    }
+                    ,{
+                        "caption": "C#",
+                        "command": "lua_refactor",
+                        "args": {
+                            "cmd":"insert_debug_info",
+                            "arg":"C#"
+                        }
+                    }
+                ]
+            }
+            ,{
+
+                "caption": "字符串相关",
+                "children":
+                [
+                    {
+                        "caption": "空格转下划线，首字母转大写",
+                        "command": "lua_refactor",
+                        "args": {
+                            "cmd":"conver_string_upper",
+                            "arg":""
+                        }
+                    }
+                ]
+            }
+            ,{
+
+                "caption": "根据已经复制的路径，打开文件",
+                "command": "lua_refactor",
+                "args": {
+                    "cmd":"open_file",
+                    "arg":""
+                }
+            }
+        ]
+    }
+]
